@@ -1,16 +1,16 @@
 html, body,
 ul, ol, li,
-h1, h2, h3, h4, h5, h6, p, div {
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
   margin: 0;
   padding: 0;
 }
 
-body {
-  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
-}
-
 li {
   list-style: none;
+}
+body {
+  font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
 }
 
 a {
@@ -19,7 +19,7 @@ a {
 
 .top-wrapper{
   padding:180px 0 100px 0;
-  background-image: url(https://cdn.pixabay.com/photo/2017/05/30/12/19/tea-2356764_960_720.jpg);/* ここからCSSを書いていきましょう */
+  background-image: url(https://cdn.pixabay.com/photo/2015/09/18/11/36/plantation-945400_960_720.jpg);/* ここからCSSを書いていきましょう */
  background-size: cover;
   color: white;
   text-align: center;
@@ -73,23 +73,29 @@ a {
 }
 
 header{
-height:65px;
-width:100%;
-background-color:rgba(34,49,52,0.9);
-position:fixed;
-top:0;
-z-index:10;
+  height:65px;
+  width:100%;
+  background-color:rgba(34,40,40,0.9);
+  position:fixed;
+  top:0;
+  z-index:10;
 }
 
+.logo{
+  width:124px;
+  margin-top:10px;
+  margin-left: 10px;
+  font-size: 30px;
+  color: #fff;
+}
 
 .header-left{
   float:left;
-  width:124px;
-  margin:10px 15px;
-  font-size: 35px;
 }
 
 .header-right{
+  margin-right: 10px;
+  font-size: 10px;
   float:right;
   background-color: rgba(255, 255, 255, 0.3);
   transition:all 0.5s;
@@ -143,43 +149,4 @@ z-index:10;
   width:80%;
   color:#b3aeb5;
   font-size:13px;
-}
-
-.message-container{
-  text-align:center;
-  margin-top:80px;
-  width:100%;
-  color:#5f5d60;
-}
-
-.message-container h2{
-  font-weight:normal;
-}
-
-.kaihatu{
-  background-color:#5dca88;
-  opacity:0.8;
-  margin-top:50px;
-  margin-bottom:80px;
-  box-shadow:0 7px #1a7940;
-  padding:15px 40px;
-}
-
-.kaihatu:active{
-  position:relative;
-  top:6px;
-  box-shadow:none;
-}
-
-.footer{
-  border-top:1px solid #eee;
-}
-
-.footer-container{
-  margin:30px ;
- color:#b3aeb5;
-}
-
-.footer img{
- width:124px;
 }
