@@ -150,3 +150,30 @@ header{
   color:#b3aeb5;
   font-size:13px;
 }
+
+.message-container{
+  text-align:center;
+  margin-top:80px;
+  width:100%;
+  color:#5f5d60;
+}
+
+.message-container h2{
+  font-weight:normal;
+}
+
+.kaihatu{
+  background-color:#5dca88;
+  opacity:0.8;
+  margin-top:50px;
+  margin-bottom:80px;
+  box-shadow:0 7px #1a7940;
+  padding:15px 40px;
+}
+
+.kaihatu:active{
+  position:relative;
+  top:6px;
+  box-shadow:none;
+
+}
