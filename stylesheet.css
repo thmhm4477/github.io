@@ -1,16 +1,16 @@
 html, body,
 ul, ol, li,
-h1, h2, h3, h4, h5, h6, p,
-form, input, div {
+h1, h2, h3, h4, h5, h6, p, div {
   margin: 0;
   padding: 0;
 }
 
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
 li {
   list-style: none;
-}
-body {
-  font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
 }
 
 a {
@@ -73,20 +73,19 @@ a {
 }
 
 header{
-  height:65px;
-  width:100%;
-  background-color:rgba(34,40,40,0.9);
-  position:fixed;
-  top:0;
-  z-index:10;
+height:65px;
+width:100%;
+background-color:rgba(34,49,52,0.9);
+position:fixed;
+top:0;
+z-index:10;
 }
 
 .logo{
   width:124px;
-  margin-top:10px;
+  margin-top:15px;
   margin-left: 10px;
   font-size: 30px;
-  color: #fff;
 }
 
 .header-left{
@@ -94,8 +93,6 @@ header{
 }
 
 .header-right{
-  margin-right: 10px;
-  font-size: 10px;
   float:right;
   background-color: rgba(255, 255, 255, 0.3);
   transition:all 0.5s;
@@ -112,7 +109,7 @@ header{
  display:block;
 }
 .lesson-wrapper{
-  background-color:#f7f7f7;
+  background-color:#fffafa;
   height:580px;
   text-align:center;
 }
@@ -138,9 +135,9 @@ header{
 
 .lesson-icon p{
  position:absolute;
- top:44% ;
+ top:80% ;
  width:100%;
- color:white;
+ color:#556b2f
 }
 
 .txt-contents{
@@ -155,7 +152,7 @@ header{
   text-align:center;
   margin-top:80px;
   width:100%;
-  color:#5f5d60;
+  color:#000;
 }
 
 .message-container h2{
@@ -163,11 +160,11 @@ header{
 }
 
 .kaihatu{
-  background-color:#5dca88;
+  background-color:#6b8e23;
   opacity:0.8;
   margin-top:50px;
   margin-bottom:80px;
-  box-shadow:0 7px #1a7940;
+  box-shadow:0 7px #556b2f;
   padding:15px 40px;
 }
 
