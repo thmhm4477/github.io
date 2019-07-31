@@ -10,6 +10,11 @@ li {
   list-style: none;
 }
 
+*{
+  margin:0;
+  padding:0;
+}
+
 body{
   font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
 }
