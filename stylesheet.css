@@ -17,15 +17,17 @@ body{
 a{
   text-decoration:none;
 }
-
 .container{
-  width:100%;
-  margin:auto;
+  width: 100%;
+ padding: 0 0;
+ margin: 0 auto;
 }
 
 .header{
   height:90px;
+  width:;
   background-color:#32cd32;
+
 }
 
 .header-logo{
@@ -46,9 +48,11 @@ a{
 }
 
 .main{
+
   height:500px;
+  width:;
   background-image:url(https://cdn.pixabay.com/photo/2016/04/05/09/28/tea-1309015_960_720.jpg);
-  background-size: 100%;
+  background-size: cover;
 }
 
 .main-container{
@@ -77,8 +81,8 @@ a{
 }
 
 .footer{
- 
   height:40px;
+  width:;
   padding: 20px 20px;
   font-size: 20px;
   color: white;
