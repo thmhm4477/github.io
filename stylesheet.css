@@ -97,4 +97,13 @@ a{
   opacity: 0.8;
 }
 
+@media (max-width:900px ) {
+  .img{
+    height:100%;
+    width:auto;
+  }
+  .footer-logo{
+    color:black;
+  }
+}
 
