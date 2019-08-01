@@ -106,6 +106,7 @@ a{
 }
 @media (max-width:670px ) {
   .contents-item img{
-    size:50%;
+    height:100%;
+    width:auto;
   }
 }
