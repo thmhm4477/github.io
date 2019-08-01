@@ -100,11 +100,10 @@ a{
 
 
 @media (max-width:1000px ) {
-  .contaner{
-    width:100%;
+  
   }
 }
-@media (max-width:670px ) {
+@media (max-width:900px ) {
   .contents-item img{
     height:100%;
     width:auto;
