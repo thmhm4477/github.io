@@ -99,11 +99,10 @@ a{
 
 @media (max-width:800px ) {
   
-  
-  .contents-item img{
-    height:100%;
-    width:50%;
+  .resizeimage img{
+    width:100%;
   }
+  
   .footer-logo{
     color:black;
   }
