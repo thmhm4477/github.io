@@ -99,6 +99,11 @@ a{
 
 @media (max-width:800px ) {
   
+  .resizeimage{
+   max-width:300px;
+   min-width:100px;
+  }
+  
   .resizeimage img{
     width:100%;
   }
