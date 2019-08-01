@@ -100,7 +100,7 @@ a{
 @media (max-width:800px ) {
   .contents-item img{
     height:100%;
-    width:auto;
+    width:400px;
   }
   .footer-logo{
     color:black;
