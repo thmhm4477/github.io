@@ -97,8 +97,8 @@ a{
   opacity: 0.8;
 }
 
-@media (max-width:900px ) {
-  .img{
+@media (max-width:800px ) {
+  .contents-item img{
     height:100%;
     width:auto;
   }
