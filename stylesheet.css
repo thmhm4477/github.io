@@ -98,12 +98,3 @@ a{
 }
 
 
-@media (max-width:900px ) {
-  .img{
-    height:100%;
-    width:auto;
-  }
-  .header-logo{
-    color:;
-  }
-}
