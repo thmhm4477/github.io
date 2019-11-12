@@ -1,120 +1,36 @@
-/* ここから共通設定 */
-a{
-  color: white;
-  text-decoration: none;
-}
-a:hover{
-  opacity: 0.8;
-}
-li{
-  list-style: none;
+@charset "UTF-8";
+
+h1{
+  color:#bd8d0a;;
 }
 body{
-  font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
-}
-img {
-  max-width: 100%;
-  height: auto;
-}
-/* ここまで共通設定 */
-
-/* ここからheader */
-header{
-  overflow: hidden;
-  background-color: #32cd32;
-}
-header .logo{
-  width: 50%;
-  float: left;
-}
-header .logo a{
-  color: white;
-  font-size: 30px;
-  padding: 25px 20px;
-  font-weight: 400;
-  display: block;
-}
-header .list{
-  width: 50%;
-  float: left;
-}
-header .list li{
-  float: left;
-  padding: 32px 5px;
-  color: white;
-}
-@media (max-width:768px) {
-  header .logo, header .list{
-    float: none;
-    width: 100%;
-  }
-  header .logo a{
-    padding: 10px 20px 0;
-  }
-  header .list li{
-    padding: 5px 5px;
-    font-size: 14px;
-  }
-}
-/* ここまでheader */
-
-/* ここからメインキャッチ */
-.main{
-  background-image: url(https://cdn.pixabay.com/photo/2016/04/05/09/28/tea-1309015_960_720.jpg);
-  background-size: cover;
   text-align: center;
-  padding: 100px 0;
-  color: white;
-  text-shadow: 3px 3px 3px #000a;
+  background-color: #000022;
 }
-.main h1{
-  font-size: 65px;
-}
-.main h2{
-  font-size: 40px;
-}
-@media (max-width:768px) {
-  .main h1{
-    font-size: 35px;
-  }
-  .main h2{
-    font-size: 20px;
-  }
-}
-/* ここまでメインキャッチ */
 
-/* ここからコンテンツ */
-.section-title{
-  font-size: 20px;
-  color: #a9a9a9;
-  border-bottom: 2px solid;
-  text-align: center;
-  padding: 10px 0;
+.appframe{
+  background-color: #ffffff;
+  width:420px;
+  margin:auto;
+  padding:10px;
+  border-radius: 10px;
 }
-.contents .item{
-  text-align: center;
-  margin: 100px 0;
-}
-.contents .item p{
-  color: #a9a9a9;
-}
-@media (max-width:768px) {
-  .contents .item{
-    margin: 50px 0;
-  }
-  .section-title{
-    font-size: 14px;
-  }
-}
-/* ここまでコンテンツ */
 
-/* ここからfooter */
-footer p{
-  font-size: 14px;
-  text-align: center;
-  color: white;
-  padding: 10px 0;
-  background-color: #32cd32;
+ul{
+  list-style: none;
+  padding: 0;
 }
-/* ここまでfooter */
+li{
+    border-top:solid 1px #b1daff;
+    padding:2px;
+    cursor: pointer;
+}
 
+.active{
+  background: rgba(56, 98, 148, 0.49);
+  color:#505ebb;
+}
+
+li:hover{
+  background:#06a7d8;
+}
