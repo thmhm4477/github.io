@@ -1,60 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="robots" content="noindex , nofollow">
-    <title>Tea-Life</title>
-    <link rel="stylesheet" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
-    <link rel="stylesheet" href="stylesheet.css">
-    <!-- <link rel="stylesheet" href="stylesheet.css"> -->
+    <title>ミュージックプレイヤー</title>
+    <link rel="stylesheet" href="myplayer.css">
   </head>
-
   <body>
-    <header>
-        <h2 class="logo"><a href="">TeaLife</a></h2>
-        <ul class="list">
-          <li><a href="">TeaLifeとは</a></li>
-          <li><a href="">お茶を知る</a></li>
-          <li><a href="">オンラインストア</a></li>
-        </ul>
-    </header>
-
-    <!-- ここからメインキャッチ -->
-    <div class="main">
-      <h1>TEA IS<br>GOOD FOR YOU</h1>
-      <h2>お茶の世界へようこそ</h2>
-    </div>
-    <!-- ここまでメインキャッチ -->
-
-    <!-- ここからコンテンツ -->
-    <div class="contents">
-        <h3 class="section-title">TeaLifeでは、お茶に関する様々な情報をお届けします。</h3>
-        <div class="item">
-          <a href="">
-            <img src="https://cdn.pixabay.com/photo/2017/05/18/16/22/tea-leaves-2324046__340.jpg" alt="">
-            <p>お茶ってなに？</p>
-          </a>
-        </div>
-
-        <div class="item">
-          <a href="">
-            <img src="https://cdn.pixabay.com/photo/2017/04/19/16/26/tee-2242785__340.jpg" alt="">
-            <p>世界のお茶とそれにまつわる文化を紹介</p>
-          </a>
-        </div>
-
-        <div class="item">
-          <a href="">
-            <img src="https://cdn.pixabay.com/photo/2016/06/16/23/31/tea-1462346__340.jpg" alt="" >
-            <p>お茶とお菓子</p>
-          </a>
-        </div>
-    </div>
-    <!-- ここまでコンテンツ -->
-
-    <footer>
-      <p>TeaLife</p>
-    </footer>
+   <div class="appframe">
+    <h1>ミュージックプレイヤー</h1>
+    <img src="pict_stop.png" alt="">
+    <audio src="3Chords_Symphony.mp3" controls></audio>
+    <p>聞きたい曲を選んでね！<a id="random" href="#" >ランダム</a></p>
+    <ul>
+      <li data-file="3Chords_Symphony.mp3" class="active">ミュージック1</li>
+      <li data-file="asobiba.mp3">ミュージック2</li>
+      <li data-file="BGM025Irish.mp3">ミュージック3</li>
+      <li data-file="hisohiso.mp3">ミュージック4</li>
+      <li data-file="ameagari.mp3">ミュージック5</li>
+      <li data-file="stera.mp3">ミュージック6</li>
+    </ul>
+  <script src="mplayer.js" charset="utf-8"></script>
+  </div>
   </body>
 </html>
