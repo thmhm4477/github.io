@@ -27,14 +27,14 @@ var audio = document.querySelector('audio');
 audio.addEventListener('play',
 (e)=>{
   var img = document.querySelector('img');
-  img.setAttribute('src','pict_play.png');
+  img.setAttribute('src','cat-play.jpg');
   }
 );
 
 audio.addEventListener('pause',
 (e)=>{
   var img = document.querySelector('img');
-  img.setAttribute('src','pict_stop.png');
+  img.setAttribute('src','cat-stop.jpg');
 }
 );
 
@@ -42,7 +42,7 @@ audio.addEventListener('pause',
 audio.addEventListener('ended',
 (e)=>{
   var img = document.querySelector('img');
-  img.setAttribute('src','pict_stop.png');
+  img.setAttribute('src','cat-stop.jpg');
   //次の曲に切り替え
   var activeli = document.querySelector('.active');
   var nextli = activeli.nextElementSibling;
