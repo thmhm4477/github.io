@@ -1,25 +1,183 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html>
   <head>
     <meta charset="utf-8">
-    <title>ミュージックプレイヤー</title>
-    <link rel="stylesheet" href="stylesheet.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex , nofollow">
+    <title>Tea-Life</title>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
+    <!-- <link rel="stylesheet" href="stylesheet.css"> -->
   </head>
+
   <body>
-   <div class="appframe">
-    <h1>ミュージックプレイヤー</h1>
-    <img src="cat-stop.jpg" alt="">
-    <audio src="3Chords_Symphony.mp3" controls></audio>
-    <p>聞きたい曲を選んでね！<a id="random" href="#" >ランダム</a></p>
-    <ul>
-      <li data-file="3Chords_Symphony.mp3" class="active">ミュージック1</li>
-      <li data-file="asobiba.mp3">ミュージック2</li>
-      <li data-file="BGM025Irish.mp3">ミュージック3</li>
-      <li data-file="hisohiso.mp3">ミュージック4</li>
-      <li data-file="ameagari.mp3">ミュージック5</li>
-      <li data-file="stera.mp3">ミュージック6</li>
-    </ul>
-  <script src="mplayer.js" charset="utf-8"></script>
-  </div>
+    <header>
+        <h2 class="logo"><a href="">TeaLife</a></h2>
+        <ul class="list">
+          <li><a href="">TeaLifeとは</a></li>
+          <li><a href="">お茶を知る</a></li>
+          <li><a href="">オンラインストア</a></li>
+        </ul>
+    </header>
+
+    <!-- ここからメインキャッチ -->
+    <div class="main">
+      <h1>TEA IS<br>GOOD FOR YOU</h1>
+      <h2>お茶の世界へようこそ</h2>
+    </div>
+    <!-- ここまでメインキャッチ -->
+
+    <!-- ここからコンテンツ -->
+    <div class="contents">
+        <h3 class="section-title">TeaLifeでは、お茶に関する様々な情報をお届けします。</h3>
+        <div class="item">
+          <a href="">
+            <img src="https://cdn.pixabay.com/photo/2017/05/18/16/22/tea-leaves-2324046__340.jpg" alt="">
+            <p>お茶ってなに？</p>
+          </a>
+        </div>
+
+        <div class="item">
+          <a href="">
+            <img src="https://cdn.pixabay.com/photo/2017/04/19/16/26/tee-2242785__340.jpg" alt="">
+            <p>世界のお茶とそれにまつわる文化を紹介</p>
+          </a>
+        </div>
+
+        <div class="item">
+          <a href="">
+            <img src="https://cdn.pixabay.com/photo/2016/06/16/23/31/tea-1462346__340.jpg" alt="" >
+            <p>お茶とお菓子</p>
+          </a>
+        </div>
+    </div>
+    <!-- ここまでコンテンツ -->
+
+    <footer>
+      <p>TeaLife</p>
+    </footer>
   </body>
 </html>
+
+
+
+<style type="text/css">
+/* ここから共通設定 */
+a{
+  color: white;
+  text-decoration: none;
+}
+a:hover{
+  opacity: 0.8;
+}
+li{
+  list-style: none;
+}
+body{
+  font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+/* ここまで共通設定 */
+
+/* ここからheader */
+header{
+  overflow: hidden;
+  background-color: #32cd32;
+}
+header .logo{
+  width: 50%;
+  float: left;
+}
+header .logo a{
+  color: white;
+  font-size: 30px;
+  padding: 25px 20px;
+  font-weight: 400;
+  display: block;
+}
+header .list{
+  width: 50%;
+  float: left;
+}
+header .list li{
+  float: left;
+  padding: 32px 5px;
+  color: white;
+}
+@media (max-width:768px) {
+  header .logo, header .list{
+    float: none;
+    width: 100%;
+  }
+  header .logo a{
+    padding: 10px 20px 0;
+  }
+  header .list li{
+    padding: 5px 5px;
+    font-size: 14px;
+  }
+}
+/* ここまでheader */
+
+/* ここからメインキャッチ */
+.main{
+  background-image: url(https://cdn.pixabay.com/photo/2016/04/05/09/28/tea-1309015_960_720.jpg);
+  background-size: cover;
+  text-align: center;
+  padding: 100px 0;
+  color: white;
+  text-shadow: 3px 3px 3px #000a;
+}
+.main h1{
+  font-size: 65px;
+}
+.main h2{
+  font-size: 40px;
+}
+@media (max-width:768px) {
+  .main h1{
+    font-size: 35px;
+  }
+  .main h2{
+    font-size: 20px;
+  }
+}
+/* ここまでメインキャッチ */
+
+/* ここからコンテンツ */
+.section-title{
+  font-size: 20px;
+  color: #a9a9a9;
+  border-bottom: 2px solid;
+  text-align: center;
+  padding: 10px 0;
+}
+.contents .item{
+  text-align: center;
+  margin: 100px 0;
+}
+.contents .item p{
+  color: #a9a9a9;
+}
+@media (max-width:768px) {
+  .contents .item{
+    margin: 50px 0;
+  }
+  .section-title{
+    font-size: 14px;
+  }
+}
+/* ここまでコンテンツ */
+
+/* ここからfooter */
+footer p{
+  font-size: 14px;
+  text-align: center;
+  color: white;
+  padding: 10px 0;
+  background-color: #32cd32;
+}
+/* ここまでfooter */
+</style>
